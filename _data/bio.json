@@ -21,20 +21,33 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "name": "Languages",
+      "keywords": [ "C/C++", "Java", "Python", "HTML/CSS", "JavaScript" ]
     },
     {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "name": "Developer Tools",
+      "keywords": [ "Vi", "CLion", "Eclipse", "Visual Studio/Visual Studio Code", "Jupyter Notebook", "PyCharm" ]
+    },
+    {
+      "name": "Software",
+      "keywords": [ "Windows", "Unix", "PuTTY", "FileZilla", "Microsoft Office" ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawaii at Mānoa, Honolulu, HI",
+      "area": "Computer Science: Data Science (expected Spring, 2026)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2021-08-23",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Hawaii at Mānoa, Honolulu, HI",
+      "area": "Spanish & Latin American Studies (expected Spring, 2026)",
+      "studyType": "B.A.",
+      "startDate": "2021-08-23",
       "endDate": "Present",
       "courses": [
       ]
@@ -42,30 +55,22 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "University of Hawaii at Mānoa",
+      "position": "Microfilm Preservation Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2022-03-08",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Prep materials and quality control during microfilming process",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Create and re-check hundreds of accurate page-by-page collation sheets of newspapers for numerous newspaper titles for later data compilation, allowing ease of access to data pertaining to each newspaper issue",
+        "Compile numerous computer-generated targets each fiscal year to prepare for microfilming by our contract vendor, enhancing vendor coordination and project timeline adherence",
+        "Process and prepare dozens of boxes with newspapers and their associated collated data in a timely manner for shipment to our contract vendor",
+        "Analyze dozens of microfilm masters and use copies using a microscope and microfilm reader while cross-referencing collated data, allowing for thorough quality control checks to close existing microfilm contracts in a timely manner",
+        "Manage and train students by onboarding them to the microfilm process, provide feedback to their work, give instructions, and answer questions"
       ]
     }
   ],
+  <!--
   "volunteer": [
     {
       "organization": "Center for Renewable Energy and Island Sustainability",
@@ -93,6 +98,7 @@
       ]
     }
   ],
+  -->
   "awards": [
     {
       "title": "B+ Scholarship",
