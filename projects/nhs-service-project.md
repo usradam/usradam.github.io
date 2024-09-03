@@ -8,7 +8,6 @@ published: true
 labels:
   - Community Service
   - Service Project
-  - School
 summary: "As part of a required service project for the National Honor Society (NHS) at my highschool, I organized with the Salvation Army to participate in the 2019 Manoa Christmas Parade."
 ---
 
@@ -18,6 +17,8 @@ summary: "As part of a required service project for the National Honor Society (
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
 
-The National Honor Society (NHS) allows members to be actively involved in their community as it emphasizes community service and a culmination in the form of a service project.
+The National Honor Society (NHS) allows members to be actively involved in their community as it emphasizes community service and this service culminates in the form of a service project. My service project was in coordination with the Salvation Army for the yearly Manoa Community Christmas Parade. The project consisted of members and volunteers marching in the parade under the Salvation Army name to spread joy and candy to the community. Other members from NHS were able to join my service project but unfortunately only one could commit.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For this project, I participated as a volunteer with the Salvation Army alongside the many other participants. I had reached out to the Salvation Army with the premise of being able to contribute to the parade through my service project. I maintained close communication with event coordinators and my fellow NHS member to ensure we arrived to the parade on time and to verify the head count of total participants. The parade route was from Noelani Elementary to Manoa Valley District Park and lasted from 4:00 pm - 6:00 pm.
+
+The experience was familiar as I had participated in the Manoa Community Christmas Parade when my brother did it through his Boy Scouts troop. However, this time it was a self-independent experience as I was the sole person to organize and advertise a role in the parade. The parade was a success but recruting more people to join me is something I needed to improve upon.
