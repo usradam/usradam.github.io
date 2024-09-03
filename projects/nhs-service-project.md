@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/nhs-service-project/parade-group.jpg
 title: "NHS Service Project"
 date: 2019-12-14
 published: true
@@ -12,9 +12,9 @@ summary: "As part of a required service project for the National Honor Society (
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
+  <img width="200px" src="../img/nhs-service-project/banner.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/nhs-service-project/parade-group2.jpg" class="img-thumbnail" >
+  <img width="200px" src="../img/nhs-service-project/passing-candy.jpg" class="img-thumbnail" >
 </div>
 
 The National Honor Society (NHS) allows members to be actively involved in their community as it emphasizes community service and this service culminates in the form of a service project. My service project was in coordination with the Salvation Army for the yearly Manoa Community Christmas Parade. The project consisted of members and volunteers marching in the parade under the Salvation Army name to spread joy and candy to the community. Other members from NHS were able to join my service project but unfortunately only one could commit.
