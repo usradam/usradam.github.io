@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ics-212-database/vacay-square.png
+image: img/ics-212-database/database-square.png
 title: "Database and User Interface"
 date: 2024
 published: true
@@ -13,8 +13,7 @@ labels:
 summary: "A simple database and user interface that stores general account information such as an account number, name, and address"
 ---
 
-<img class="img-fluid" src="../img/ics-212-database/adding-record.png">
-<img class="img-fluid" src="../img/ics-212-database/printing-records.png">
+<img class="img-fluid" src="../img/ics-212-database/program-opening.png">
 
 This database user interface was created as a project for the ICS 212 class at UH Manoa. This project was the culmination of a few homeworks that we began at the beginning of the semester with the ultimate goal being to create a database with a simple user interface.
 
