@@ -19,7 +19,7 @@ This database user interface was created as a project for the ICS 212 class at U
 
 The database is implemented using the C programming language within the Unix system. The database supports the addition of a record, printing all avaialble records, finding a specific record, deleting a sepcific record, and quitting the program. This project was indepently done with the student required to fully implement and test their own database program.
 
-In this project I gained experience with utilizing multiple software to organize files and write the program including Vi, FileZilla, and PuTTY. As such, I got a lot of practice with Unix commands to navigate the file system and organize my files and being able to compile my source code and link my object files to run the program. I had previously only utilized integrated development environments (IDEs) to write programs so utilizing Vi helped me appreciate the simplicity of a text editor without the fully configured features of an IDE like a powerful debugger.
+In this project I gained experience with utilizing multiple software to organize files and write the program including Vi, FileZilla, and PuTTY. As such, I got a lot of practice with Unix commands to navigate the file system and organize my files. I also gained experience in being able to compile my source code and link my object files to run the program. I had previously only utilized integrated development environments (IDEs) to write programs so utilizing Vi helped me appreciate the simplicity of a text editor without the fully configured features of an IDE like a powerful debugger.
 
 Here is some example code to illustrate how the program adds a record to the database:
 
