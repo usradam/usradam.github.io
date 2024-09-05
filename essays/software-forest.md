@@ -18,7 +18,7 @@ Photo by <a href="https://unsplash.com/@jonastebbe?utm_content=creditCopyText&ut
 
 ## Preparation for the hike
 
-insert text here
+At the start of my first semester at UH. 
 
 ## Start of the hike
 
