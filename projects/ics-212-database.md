@@ -23,7 +23,7 @@ In this project I gained experience with utilizing multiple software to organize
 
 Here is some example code to illustrate how the program adds a record to the database:
 
-```
+```C
 int addRecord(struct record **start, int accountno, char name[], char address[])
 {
     struct record* current;
