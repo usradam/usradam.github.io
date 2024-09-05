@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Types for TypeScript"
+title: "Typing Types for TypeScript: Going through the Motion"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-04
 published: true
