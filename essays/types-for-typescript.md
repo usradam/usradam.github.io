@@ -10,46 +10,26 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/typescript/Typescript.svg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+Going into my ICS 314 class at UH Manoa, I did not have prior experience with active web development. In practice, I only had some knowledge and familiarity with web developemnt languages such as HTML, CSS, and JavaScript. I taught myself some concepts from these languages due to wanting to build my own websites, with a primary otivation of wanting to showcase statistics of my own characters from video games and even providing tips to other players. 
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+As I move forward with ICS 314, undertaking TypeScript has furthered my motivation of getting to know the language very well and applying it to my own projects down the road. So far it seems like a fun language to work with and I am excited to develop my skills with it.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+## Experience and familiarity
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+I have become curious with TypeScript as it is functionally similar to JavaScript, which has allowed me to become acquainted with the syntax of TypeScript due to my familiarity with JavaScript. We started the class with some introductory modules related to JavaScript, with one exercise focusing on the ES6 version. It was good pracctice that helped me to solidify some base concepts, which carrys on over to when we started TypeScript. As we moved onto TypeScript, there was empahsis on type annotations that come with the language, which can be helpful for specifying the parameters in a function.
 
-Here's what I think: the difficult things will always be difficult.
+Working with JavaScript and TypeScript has been a good break from C and C++ that I worked with in a previous ICS 212 class since C and C++ invovles manual memory management, making debugging a bit more annoying. With that in mind and type annotations, TypeScript seems like a language that could offer more readability to a user which seems like a good fit use in software engieering. As I gain more experience with TypeScript, I am sure to gain a stronger opinion on it, but it has been an intriguing start so far.
 
-## In the context of programming
+## Athletic Software Engineering
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+This semester, we established a pedagogy called "Athletic Software Engineering" (ASE) which invovles timed, fast-paced technical assignments related to software engineering. A big component of ASE is through a workout of the day (WOD) which involves timed coding problems.
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+This is intimidating as it is an all-or-nothing points system, which forces us to be comfortable with the language and to be calm under time-constrained conditions. We have practice WODs to get acquainted with the material we have learned before our graded WOD, which I find to be useful since there is an associated video solution to follow after our attempt.
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+## Skill Acquisition 
 
-## In the context of engineering
+I find the general premise of ASE and the WODs to be a smart approach that will be beneficial to me and other students later in life. This is especially true for job interviews that employ coding problems and for acquiring solid skills of the material, not just general concept acquisition.
 
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+As I go through the motion with the WODs and course content, I am sure to gain a good understanding of TypeScript that will carry with me throughout my career and prepare me to be comfortable in a computer science work environment.
