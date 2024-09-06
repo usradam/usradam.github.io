@@ -18,11 +18,13 @@ Photo by <a href="https://unsplash.com/@jonastebbe?utm_content=creditCopyText&ut
 
 ## Preparation for the hike
 
-At the start of my first semester at UH. 
+At the start of my first semester at UH, I was an exploratory student as I had not yet decided and declared a major. From highschool, I knew I was interested in chemistry and environmental science so I was looking into degrees I may pursure in the College of Natural Sciences and the School of Ocean and Earth Science and Technology. In the meantime, I decided to fulfill my general education requirements as I looked over the degree pathways and talking with some friends.
+
+One of my friends, who was on the Information and Computer Sciences pathway, described his pathway as fun and interesting since he was tying in his computer science classes with creative computational media. This interested me as someone who, at the time, was also interested in game development. I branched out to other interests such as cybersecurity and, of most interest to me, psephology (the statistical study of elections and trends in voting).
 
 ## Start of the hike
 
-insert text here
+I began my sophomore year taking computer science classes after having completed a lot of general education coursework, and my motivation to continue getting better grew. I did not have prior coding experience but I soo began to get involved in clubs in the Association for Computing Machinery (ACM) clubs at my school, including Grey Hats (a cybersecurity-centered club), and Programming and Algorithms (PANDA). I became more confident being around others wanting to develop better understandings of computer science principles and and trying to improve their programming skills as well.
 
 ## Navigating the pathways: Where do I go from here?
 
