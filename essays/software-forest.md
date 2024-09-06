@@ -22,7 +22,7 @@ One of my friends, who was on the Information and Computer Sciences pathway, des
 
 ## Start of the hike
 
-I began my sophomore year taking computer science classes after having completed a lot of general education coursework, and my motivation to continue getting better grew. I did not have prior coding experience but I soo began to get involved in clubs in the Association for Computing Machinery (ACM) clubs at my school, including Grey Hats (a cybersecurity-centered club), and Programming and Algorithms (PANDA). I became more confident being around others wanting to develop better understandings of computer science principles and and trying to improve their programming skills as well.
+I began my sophomore year taking computer science classes after having completed a lot of general education coursework, and my motivation to continue getting better grew. I did not have prior coding experience but I began to get involved in clubs in the Association for Computing Machinery (ACM) clubs at my school, including Grey Hats (a cybersecurity-centered club), and Programming and Algorithms (PANDA). I became more confident being around others wanting to develop better understandings of computer science principles and trying to improve their programming skills as well.
 
 ## Navigating the pathways: Where do I go from here?
 
