@@ -14,8 +14,6 @@ labels:
 
 Photo by <a href="https://unsplash.com/@jonastebbe?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jonas Tebbe</a> on <a href="https://unsplash.com/photos/pathway-along-forest-during-foggy-day-oFxxpPKwd84?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
-  
-
 ## Preparation for the hike
 
 At the start of my first semester at UH, I was an exploratory student as I had not yet decided and declared a major. From highschool, I knew I was interested in chemistry and environmental science so I was looking into degrees I may pursure in the College of Natural Sciences and the School of Ocean and Earth Science and Technology. In the meantime, I decided to fulfill my general education requirements as I looked over the degree pathways and talking with some friends.
@@ -28,4 +26,4 @@ I began my sophomore year taking computer science classes after having completed
 
 ## Navigating the pathways: Where do I go from here?
 
-insert text here
+There are many forks on the computer science pathway that I am interested in going down, but as of right now I will continue to develop data science and software engineering fundamentals where I hope to gain experience in a variety of applications that concern anything from psephology to climatology, or even computational media. 
