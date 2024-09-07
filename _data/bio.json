@@ -6,8 +6,8 @@
     "email": "adamgra@hawaii.edu",
     "phone": "808-227-6635",
     "website": "https://usradam.github.io",
-    "summary": "I am studying for a B.S. in Computer Science: Data Science in the Department of Information and Computer Sciences at the University of Hawaii. I am also pursuing a secondary major in Spanish & Latin American Studies at the College of Arts, Languages & Letters. I expect to graduate in Spring 2026.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I am pursuing a B.S. in Computer Science: Data Science at the University of Hawaii at Mānoa's Department of Information and Computer Sciences. Additionally, I am working towards a secondary major in Spanish & Latin American Studies at the College of Arts, Languages & Letters. I expect to graduate in Spring 2026.",
+    "location": { "address": "", "postalCode": "96734", "city": "Kailua", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "usradam", "url": "http://github.com/usradam" },
       { "network": "linkedin", "username": "adamgra", "url": "http://linkedin.com/in/adamgra" }
