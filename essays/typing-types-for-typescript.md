@@ -16,7 +16,7 @@ Going into my ICS 314 class at UH Manoa, I did not have prior experience with ac
 
 As I move forward with ICS 314, undertaking TypeScript has furthered my motivation of getting to know the language very well and apply it to my own projects down the road. So far, it seems like a fun language to work with, and I am excited to develop my skills with it.
 
-## Experience and familiarity
+## Experience and Familiarity
 
 I have become curious with TypeScript as it is functionally similar to JavaScript, which has allowed me to become acquainted with the syntax of TypeScript. We started the class with introductory material related to JavaScript, with one exercise focusing on the ES6 version. It was good practice that helped me solidify some base concepts; the concepts carried over to when we started TypeScript. As we moved onto TypeScript, there was emphasis on type annotations that come with the language, which can be helpful for specifying the parameters in a function.
 
