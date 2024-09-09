@@ -18,7 +18,7 @@ Photo by <a href="https://unsplash.com/@jonastebbe?utm_content=creditCopyText&ut
 
 At the start of my first semester at UH Manoa, I was an exploratory student, as I had not yet decided on and declared a major. From high school, I knew I was interested in chemistry and environmental science, so I was considering degrees in the College of Natural Sciences or the School of Ocean and Earth Science and Technology. In the meantime, I decided to fulfill my general education requirements while exploring degree pathways and talking with friends.
 
-One of my friends, who was on the Information and Computer Sciences pathway, described his pathway as fun and interesting since he was integrating his computer science classes with creative computational media. This piqued my interest, as I was also interested in game development at the time. I branched out to other interests such as cybersecurity and, most notably, psephology (the statistical study of elections and voting trends).
+One of my friends, who was on the Information and Computer Sciences pathway, described his pathway as fun and interesting since he was integrating his computer science classes with creative computational media. This piqued my interest, as I was also interested in game development at the time. I branched out to other interests such as cybersecurity and psephology (the statistical study of elections and voting trends).
 
 ## Start of the Hike
 
