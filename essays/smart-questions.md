@@ -1,13 +1,12 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Getting the Answers You Want"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2024-09-10
+published: true
 labels:
-  - Questions
-  - Answers
+  - Questions and Answers
   - StackOverflow
 ---
 
