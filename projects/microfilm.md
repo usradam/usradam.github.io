@@ -12,6 +12,8 @@ labels:
 summary: "My team takes up multiple microfilm projects in a fiscal year where we collate and ship newspapers to our vendor and perform quality control inspections on the film."
 ---
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> <script src="https://kit.fontawesome.com/5d0479de92.js" crossorigin="anonymous"></script> <style> .carousel-inner { overflow: hidden; } .carousel-inner .carousel-item { transition: transform 0.6s ease-in-out; } </style>
+
 <div class="text-center p-4">
   <img width="350px" src="../img/microfilm/microfilm-reader.png" class="img-thumbnail" >
   <img width="350px" src="../img/microfilm/newspaper-shelf.png" class="img-thumbnail" >
