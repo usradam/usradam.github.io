@@ -13,9 +13,9 @@ summary: "My team takes up multiple microfilm projects in a fiscal year where we
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/microfilm/microfilm-reader.png" class="img-thumbnail" >
-  <img width="200px" src="../img/microfilm/newspaper-shelf.png" class="img-thumbnail" >
-  <img width="200px" src="../img/microfilm/reel-quality-check.png" class="img-thumbnail" >
+  <img width="350px" src="../img/microfilm/microfilm-reader.png" class="img-thumbnail" >
+  <img width="350px" src="../img/microfilm/newspaper-shelf.png" class="img-thumbnail" >
+  <img width="350px" src="../img/microfilm/reel-quality-check.png" class="img-thumbnail" >
 </div>
 
 At my workplace, my colleagues and I undertake multiple projects in a fiscal year which consist of Hawaiian and Pacific newspaper titles that must be collated, tracked, and shipped to our microfilm vendor. Afterwards, we perform a quality control inspection on the microfilm reels using microscopes, magnifiers, and a microfilm reader.
