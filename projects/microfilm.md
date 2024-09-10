@@ -11,8 +11,37 @@ labels:
   - Spreadsheets
 summary: "My team takes up multiple microfilm projects in a fiscal year where we collate and ship newspapers to our vendor and perform quality control inspections on the film."
 ---
+<div class="carousel">
+  <div class="scroll-container">
+    <div class="stage">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> <script src="https://kit.fontawesome.com/5d0479de92.js" crossorigin="anonymous"></script> <style> .carousel-inner { overflow: hidden; } .carousel-inner .carousel-item { transition: transform 0.6s ease-in-out; } </style>
+    </div>
+
+    <div class="backstage">
+    </div>
+  </div>
+
+
+  <div class="image-list">
+    <!-- add any images you want here using inputs -->
+    <!-- these inputs also support a link tag and an alt tag -->
+    <input type="hidden" imgurl="../img/microfilm/microfilm-reader.png" subtitle="Estamos de aniversario">
+    <input type="hidden" imgurl="../img/microfilm/newspaper-shelf.png" subtitle="Something about airborne">
+    <input type="hidden" imgurl="../img/microfilm/reel-quality-check.png" subtitle="This is the third subtitle">
+  </div>
+  <div class="toolbar-background"></div>
+  <div class="toolbar">
+    <div class="subtitle">
+
+    </div>
+    <div class="controls">
+      <span class="pause"></span>
+      <span class="play"></span>
+      <span class="prev"></span>
+      <span class="next"></span>
+    </div>
+  </div>
+</div>
 
 <div class="text-center p-4">
   <img width="350px" src="../img/microfilm/microfilm-reader.png" class="img-thumbnail" >
