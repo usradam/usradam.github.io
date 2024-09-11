@@ -12,11 +12,18 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
 
-## Is there such thing as a stupid question?
+## Developing the Right Approach to Questions
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
+Asking a well-constructed question will increase your chance of receiving well-constructed answers. Asking smart questions requires careful consideration of a few criteria to provoke answers from people who will not see your question as a time waste. Someone who is observant, thoughtful, and willing to learn is less likely to be neglected in a place like a forum where there are many questions that respondents can choose to answer. Following the approach by Eric S. Raymond and Rick Moen in their ["How To Ask Questions The Smart Way"](http://www.catb.org/esr/faqs/smart-questions.html) guide, it is important to take these first steps and try to find an answer to your technical question before asking it online:
+1. Search archives of the forum you plan to post to or its mailing list.
+2. Search the web ("Google is your friend").
+3. Read the manual.
+4. Read an FAQ.
+5. Go through inspection and/or experimentation.
+6. Ask a skilled friend.
+7. If you program, try to read the source code.
 
-## What’s a smart question?
+## Constructing the Question
 
 Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
 
@@ -76,7 +83,7 @@ Like this:
  
 The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
 
-## The foolproof way to get ignored.
+## A Look at a Smart Question
 
 While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
 
@@ -93,6 +100,8 @@ edit Sorry I was not clear. Is there any way to make a DESKTOP application with 
 
 A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
 
-## Conclusion
+## A Question to Improve
 
 When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+
+## Your Turn
