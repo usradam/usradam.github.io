@@ -36,7 +36,7 @@ For the body of the message, proof read it to be clear, gramatically correct, an
 
 Let's take a look at [an example](https://stackoverflow.com/questions/54695859/invalid-pointer-error-on-invoking-free-after-malloc-in-c) of a good question from StackOverflow, which reads:
 
->
+{ % raw % }
 > ### Invalid pointer error on invoking free() after malloc in C
 > I am doing very basic dynamic allocation practice in C and I came across this issue: when I am trying to call `free()` with the pointer returned by `malloc()`, I am getting Invalid pointer error during run time.
 >
@@ -99,8 +99,7 @@ Let's take a look at [an example](https://stackoverflow.com/questions/54695859/i
 > ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 > Aborted (core dumped)
 > ```
-> 
-
+{ % endraw % }
 
 ## A Question to Improve
 
