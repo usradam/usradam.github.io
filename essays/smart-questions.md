@@ -36,68 +36,72 @@ For the body of the message, proof read it to be clear, gramatically correct, an
 
 Let's take a look at [an example](https://stackoverflow.com/questions/54695859/invalid-pointer-error-on-invoking-free-after-malloc-in-c) of a good question from StackOverflow, which reads:
 
-> #### Invalid pointer error on invoking free() after malloc in C
-> I am doing very basic dynamic allocation practice in C and I came across this issue: when I am trying to call `free()` with the pointer returned by `malloc()`, I am getting Invalid pointer error during run time.
->
-> When I remove `free()` from code, it works fine. The pointer that I am using is not modified anyhow after returned by `malloc` (except the casting). So that rules out some suggestion I found online. Below is my code:
-> ```c
-> #include <stdio.h>
-> #include <stdlib.h>
->
-> int main() {
->       int num = 0;
->       //printf("Enter a number: ");
->       //scanf("%d", &num);
->       char* p = (char*)malloc(16*sizeof(char));
->       printf("%p", p);
->       if(p) {
->               p = "mark";
->               printf("\n%s\n", p);
->               free(p); //when removed no error
->       }
->       return 0;
->}
-> ```
->
-> Following is the error message:
-> ```c
-> 0xa26010
-> mark
-> *** Error in `./a.out': free(): invalid pointer: 0x00000000004006b7 ***
-> ======= Backtrace: =========
-> /lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7fa968aed7e5]
-> /lib/x86_64-linux-gnu/libc.so.6(+0x8037a)[0x7fa968af637a]
-> /lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7fa968afa53c]
-> ./a.out[0x40061a]
-> /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7fa968a96830]
-> ./a.out[0x4004e9]
-> ======= Memory map: ========
-> 00400000-00401000 r-xp 00000000 08:03 6815746                            /home/kushal/Documents/GATE/prac_C/a.out
-> 00600000-00601000 r--p 00000000 08:03 6815746                            /home/kushal/Documents/GATE/prac_C/a.out
-> 00601000-00602000 rw-p 00001000 08:03 6815746                            /home/kushal/Documents/GATE/prac_C/a.out
-> 00a26000-00a47000 rw-p 00000000 00:00 0                                  [heap]
-> 7fa964000000-7fa964021000 rw-p 00000000 00:00 0 
-> 7fa964021000-7fa968000000 ---p 00000000 00:00 0 
-> 7fa968860000-7fa968876000 r-xp 00000000 08:03 39719295                   /lib/x86_64-linux-gnu/libgcc_s.so.1
-> 7fa968876000-7fa968a75000 ---p 00016000 08:03 39719295                   /lib/x86_64-linux-gnu/libgcc_s.so.1
-> 7fa968a75000-7fa968a76000 rw-p 00015000 08:03 39719295                   /lib/x86_64-linux-gnu/libgcc_s.so.1
-> 7fa968a76000-7fa968c36000 r-xp 00000000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
-> 7fa968c36000-7fa968e36000 ---p 001c0000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
-> 7fa968e36000-7fa968e3a000 r--p 001c0000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
-> 7fa968e3a000-7fa968e3c000 rw-p 001c4000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
-> 7fa968e3c000-7fa968e40000 rw-p 00000000 00:00 0 
-> 7fa968e40000-7fa968e66000 r-xp 00000000 08:03 39714844                   /lib/x86_64-linux-gnu/ld-2.23.so
-> 7fa969046000-7fa969049000 rw-p 00000000 00:00 0 
-> 7fa969064000-7fa969065000 rw-p 00000000 00:00 0 
-> 7fa969065000-7fa969066000 r--p 00025000 08:03 39714844                   /lib/x86_64-linux-gnu/ld-2.23.so
-> 7fa969066000-7fa969067000 rw-p 00026000 08:03 39714844                   /lib/x86_64-linux-gnu/ld-2.23.so
-> 7fa969067000-7fa969068000 rw-p 00000000 00:00 0 
-> 7ffcf8e4b000-7ffcf8e6c000 rw-p 00000000 00:00 0                          [stack]
-> 7ffcf8f1d000-7ffcf8f20000 r--p 00000000 00:00 0                          [vvar]
-> 7ffcf8f20000-7ffcf8f22000 r-xp 00000000 00:00 0                          [vdso]
-> ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
-> Aborted (core dumped)
-> ```
+#### Invalid pointer error on invoking free() after malloc in C
+
+```
+I am doing very basic dynamic allocation practice in C and I came across this issue: when I am trying to call `free()` with the pointer returned by `malloc()`, I am getting Invalid pointer error during run time.
+
+When I remove `free()` from code, it works fine. The pointer that I am using is not modified anyhow after returned by `malloc` (except the casting). So that rules out some suggestion I found online. Below is my code:
+```
+
+ ```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+      int num = 0;
+      //printf("Enter a number: ");
+      //scanf("%d", &num);
+      char* p = (char*)malloc(16*sizeof(char));
+      printf("%p", p);
+      if(p) {
+              p = "mark";
+              printf("\n%s\n", p);
+              free(p); //when removed no error
+      }
+      return 0;
+}
+```
+
+`Following is the error message:`
+
+```c
+0xa26010
+mark
+*** Error in `./a.out': free(): invalid pointer: 0x00000000004006b7 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7fa968aed7e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8037a)[0x7fa968af637a]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7fa968afa53c]
+./a.out[0x40061a]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7fa968a96830]
+./a.out[0x4004e9]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 08:03 6815746                            /home/kushal/Documents/GATE/prac_C/a.out
+00600000-00601000 r--p 00000000 08:03 6815746                            /home/kushal/Documents/GATE/prac_C/a.out
+00601000-00602000 rw-p 00001000 08:03 6815746                            /home/kushal/Documents/GATE/prac_C/a.out
+00a26000-00a47000 rw-p 00000000 00:00 0                                  [heap]
+7fa964000000-7fa964021000 rw-p 00000000 00:00 0 
+7fa964021000-7fa968000000 ---p 00000000 00:00 0 
+7fa968860000-7fa968876000 r-xp 00000000 08:03 39719295                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fa968876000-7fa968a75000 ---p 00016000 08:03 39719295                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fa968a75000-7fa968a76000 rw-p 00015000 08:03 39719295                   /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fa968a76000-7fa968c36000 r-xp 00000000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fa968c36000-7fa968e36000 ---p 001c0000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fa968e36000-7fa968e3a000 r--p 001c0000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fa968e3a000-7fa968e3c000 rw-p 001c4000 08:03 39714902                   /lib/x86_64-linux-gnu/libc-2.23.so
+7fa968e3c000-7fa968e40000 rw-p 00000000 00:00 0 
+7fa968e40000-7fa968e66000 r-xp 00000000 08:03 39714844                   /lib/x86_64-linux-gnu/ld-2.23.so
+7fa969046000-7fa969049000 rw-p 00000000 00:00 0 
+7fa969064000-7fa969065000 rw-p 00000000 00:00 0 
+7fa969065000-7fa969066000 r--p 00025000 08:03 39714844                   /lib/x86_64-linux-gnu/ld-2.23.so
+7fa969066000-7fa969067000 rw-p 00026000 08:03 39714844                   /lib/x86_64-linux-gnu/ld-2.23.so
+7fa969067000-7fa969068000 rw-p 00000000 00:00 0 
+7ffcf8e4b000-7ffcf8e6c000 rw-p 00000000 00:00 0                          [stack]
+7ffcf8f1d000-7ffcf8f20000 r--p 00000000 00:00 0                          [vvar]
+7ffcf8f20000-7ffcf8f22000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted (core dumped)
 ```
 
 ## A Question to Improve
