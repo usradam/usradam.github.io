@@ -25,7 +25,11 @@ Asking a well-constructed question will increase your chance of receiving well-c
 
 ## Constructing the Question
 
+It is important to ask your question in the appropriate place. This includes choosing a forum where the question is on topic, deciding whether your question is suited for a technical or more elementary site, not cross-posting to too many places, and not asking the question to a someone's personal e-mail who you do not personally know. There a many forums dedicated to specific niches, so choosing a relevant forum from, for example, [StackExchange](https://stackexchange.com/sites) is a good place to start if you do not know where you may have the most success of getting an answer.
 
+Next, you should make your suject header descriptive and specific. It should be easily understandable what your problem is so that another person with a similar question can look at your post instead of needing to create a new one. In general, the subject header should contain an "object" that specifies the thing having a problem and a "deviation" that describes the unexpected output/behavior. 
+
+For the body of the message, try to proof read it to be clear, gramatically correct, and no spelling-errors. Also provide a brief synopsis of your problem's symptoms in chronological order and your ultimate goal. Then describe the step/steps that your are stuck on.
 
 ## A Look at a Smart Question
 
