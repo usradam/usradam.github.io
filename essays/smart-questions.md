@@ -14,23 +14,23 @@ labels:
 
 ## Developing the Right Approach to Questions
 
-Asking a well-constructed question will increase your chance of receiving well-constructed answers. Asking smart questions requires careful consideration of a few criteria so your question will not be seen as a time waste. Someone who is observant, thoughtful, and willing to learn is less likely to be neglected in a place like a forum where there are many questions that respondents can choose to answer. Following the approach by Eric S. Raymond and Rick Moen in their ["How To Ask Questions The Smart Way"](http://www.catb.org/esr/faqs/smart-questions.html) guide, it is important to take these initial steps to find an answer to your technical question before asking it yourself:
+Asking a well-constructed question increases your chances of receiving well-constructed answers. Smart questions require careful consideration to avoid being seen as a waste of time. An observant, thoughtful, and eager-to-learn individual is less likely to be ignored in forums where respondents can choose which questions to answer. Following the approach outlined by Eric S. Raymond and Rick Moen in their ["How To Ask Questions The Smart Way"](http://www.catb.org/esr/faqs/smart-questions.html) guide, it is important to take these initial steps before asking your technical question:
 
    1. Search archives of the forum you plan to post to or its mailing list.
    2. Search the web ("Google is your friend").
    3. Read the manual.
    4. Read an FAQ.
-   5. Go through inspection and/or experimentation.
+   5. Conduct inspection and/or experimentation.
    6. Ask a skilled friend.
-   7. If you program, try to read the source code.
+   7. If you program, try reading the source code.
 
 ## Constructing the Question
 
-It is important to ask your question in the appropriate place. This encompasses choosing a forum where the question is on topic, deciding whether your question is suited for a technical or more elementary forum, and not cross-posting the question to too many places. There a many forums dedicated to specific niches; [StackExchange](https://stackexchange.com/sites) is a good place to start if you do not know where you may have the most success of getting an answer.
+It is important to ask your question in the appropriate place. This means choosing a forum where the question is on topic, deciding whether your question is suited for a technical or more general forum, and avoiding cross-posting to too many places. There a many forums dedicated to specific niches; [StackExchange](https://stackexchange.com/sites) is a good place to start if you are unsure where you might have the most success in getting an answer.
 
-Next, you should make your subject header descriptive and specific. It should be easily understandable what your problem is so that another person with a similar question can look through your post instead of needing to create a new one. In general, the subject header should contain an "object" that specifies the thing having a problem and a "deviation" that describes the unexpected output/behavior. 
+Next, make your subject header descriptive and specific. It should be clear what your problem is so that others with similar issues can find your post rather than creating a new one. Generally, the subject header should include an "object" that specifies the thing having the problem and a "deviation" that describes the unexpected output or behavior.
 
-For the body of the message, proof read it to be clear, gramatically correct, and without spelling-errors. Then, provide a brief synopsis of your problem's symptoms in chronological order and your ultimate goal. Afterwards, describe the step(s) that your are stuck on. You want to ensure the question is specific without being overly verbose. In the context of code, provide a hint as to the problem respondents should be looking for. Provide a snippet of your code and specify the line(s) of code that failed and what you were expecting to see instead. If possible, provide a minimal test case by adding supporting code to illustrate the unexpected outuput/behavior. Lastly, do not attach an image of your code since the amount of code shown is constrained to the author's screen size. Also, you can not search for specific text in images, which makes it harder to pinpoint certain errors or typos.
+For the body of the message, proofread it to ensure it is clear, grammatically correct, and free of spelling errors. Provide a brief synopsis of the problem’s symptoms in chronological order and state your ultimate goal. Then, describe the step(s) where you are stuck. Ensure your question is specific but not overly verbose. In the context of code, hint at the problem respondents should look for. Include a snippet of your code, specifying the line(s) that failed and what you expected to see instead. If possible, provide a minimal test case with supporting code to illustrate the unexpected output or behavior. Lastly, avoid attaching images of your code since the amount of visible code is limited to the author’s screen size, and searching for specific text in images is difficult, making it harder to identify errors or typos.
 
 ## A Look at a Smart Question
 
@@ -106,7 +106,7 @@ Let's take a look at [an example](https://stackoverflow.com/questions/54695859/i
 > Aborted (core dumped)
 > ```
 
-This consitutes a smart question since the person clearly states an "object" and "deviation" where the object is invoking `free()` after `malloc` and the deviation is the invalid pointer error. The user also succinctly states the problem in the message body by describing what seems to be the source of error and shows that he went though some inspection/experimentation by playing around with the code and searching online for some suggestions. The error message also helps to see what the debug console pinpoints as the source of the error. As a result, the user gets a helpful explanatory message of the reason for the error with a suggested fix. The top voted one is as follows:
+This constitutes a smart question. The user clearly identifies the "object" and "deviation," where the object is invoking `free()` after `malloc` and the deviation is the invalid pointer error. The user also succinctly describes the problem in the message body, outlining the source of the error and showing that they have inspected and experimented with the code, as well as searched online for suggestions. The error message provides additional context for the problem. As a result, the user receives a helpful answer with a suggested fix. The top-voted answer is as follows:
 
 > You have a variable `p` that points to the memory returned by `malloc`. Then you change the variable p to point to the memory occupied by the string literal "mark". When you try to delete it, you are trying to `delete` the string literal.
 >
@@ -118,7 +118,7 @@ This consitutes a smart question since the person clearly states an "object" and
 
 ## A Question to Improve
 
-Now, let's tale a look at [a not so smart question](https://stackoverflow.com/questions/48500558/python-making-a-project), which reads as follows:
+Now, let's take a look at [a not so smart question](https://stackoverflow.com/questions/48500558/python-making-a-project), which reads as follows:
 
 > ##### Python: making a project
 >
@@ -174,5 +174,10 @@ Now, let's tale a look at [a not so smart question](https://stackoverflow.com/qu
 > x_y_5(grid)
 > x_y_6(grid)
 > ```
+
+The question has several issues. The subject header is vague and doesn’t indicate the specific problem or its causes. This lack of detail continues into the message body, which lacks error output, making it hard to pinpoint the issue. Additionally, the user doesn’t explain the ultimate goal or provide context about the project mentioned. This confusion is evident in the replies, including the following:
+
+- `"Could you please tell us what you want to do?"`
+- `"If it's working, consider asking on codereview.stackexchange.com. Otherwise, question seeking for debugging help must include the desired behavior, a specific problem or error and the shortest code necessary to reproduce it in the question itself."`
 
 ## Your Turn
