@@ -37,7 +37,7 @@ For the body of the message, proofread it to ensure it is clear, grammatically c
 
 ## A Look at a Smart Question
 
-Let's take a look at [an example](https://stackoverflow.com/questions/54695859/invalid-pointer-error-on-invoking-free-after-malloc-in-c) of a good question from StackOverflow, which reads:
+Let's take a look at [an example of a good question](https://stackoverflow.com/questions/54695859/invalid-pointer-error-on-invoking-free-after-malloc-in-c) from StackOverflow, which reads:
 
 ---
 > ##### Invalid pointer error on invoking free() after malloc in C
