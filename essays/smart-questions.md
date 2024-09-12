@@ -10,7 +10,10 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/manual.jpg">
+
+Photo by <a href="https://unsplash.com/@mattseymour?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matt Seymour</a> on <a href="https://unsplash.com/photos/orange-and-red-plastic-pack-3ljBiiW5Chg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
 ## Developing the Right Approach to Questions
 
@@ -178,7 +181,9 @@ Now, let's take a look at [a not so smart question](https://stackoverflow.com/qu
 
 The question has several issues. The subject header is vague and doesn’t indicate the specific problem or its causes. This lack of detail continues into the message body, which lacks error output, making it hard to pinpoint the issue. Additionally, the user doesn’t explain the ultimate goal or provide context about the project mentioned. This confusion is evident in the replies, including the following:
 
-- `"Could you please tell us what you want to do?"`
-- `"If it's working, consider asking on codereview.stackexchange.com. Otherwise, question seeking for debugging help must include the desired behavior, a specific problem or error and the shortest code necessary to reproduce it in the question itself."`
+- "Could you please tell us what you want to do?"
+- "If it's working, consider asking on codereview.stackexchange.com. Otherwise, question seeking for debugging help must include the desired behavior, a specific problem or error and the shortest code necessary to reproduce it in the question itself."
 
 ## Your Turn
+
+Now that you have a foundational understanding of how to approach asking questions, it’s time to put this knowledge into practice. While following these guidelines does not guarantee that you will receive the answer you seek, adhering to these best practices will significantly improve your chances of getting helpful responses. Good luck!
