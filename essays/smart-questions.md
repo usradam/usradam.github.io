@@ -108,13 +108,14 @@ Let's take a look at [an example](https://stackoverflow.com/questions/54695859/i
 
 This constitutes a smart question. The user clearly identifies the "object" and "deviation," where the object is invoking `free()` after `malloc` and the deviation is the invalid pointer error. The user also succinctly describes the problem in the message body, outlining the source of the error and showing that they have inspected and experimented with the code, as well as searched online for suggestions. The error message provides additional context for the problem. As a result, the user receives a helpful answer with a suggested fix. The top-voted answer is as follows:
 
-> You have a variable `p` that points to the memory returned by `malloc`. Then you change the variable p to point to the memory occupied by the string literal "mark". When you try to delete it, you are trying to `delete` the string literal.
->
-> In short, the line `p = "mark"` is not doing what you think it's doing. It isn't copying that value into the memory returned from malloc.
->
-> Try changing that line to `strcpy(p, "mark")` and I suspect things will start working better.
-> 
-> (That being said, I shouldn't even mention `strcpy` because it's so unsafe and there are alternatives that will prevent buffer overrun problems. But that's a separate question, and there are a lot of discussions about it here on SO.)
+- You have a variable `p` that points to the memory returned by `malloc`. Then you change the variable p to point to the memory occupied by the string literal "mark". When you try to delete it, you are trying to `delete` the string literal.
+
+  In short, the line `p = "mark"` is not doing what you think it's doing. It isn't copying that value into the memory returned from malloc.
+
+  Try changing that line to `strcpy(p, "mark")` and I suspect things will start working better.
+
+  (That being said, I shouldn't even mention `strcpy` because it's so unsafe and there are alternatives that will prevent buffer overrun problems. But that's a separate question, and there are a lot of discussions about it here on SO.)
+
 
 ## A Question to Improve
 
