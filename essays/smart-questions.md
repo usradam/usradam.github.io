@@ -39,6 +39,7 @@ For the body of the message, proofread it to ensure it is clear, grammatically c
 
 Let's take a look at [an example](https://stackoverflow.com/questions/54695859/invalid-pointer-error-on-invoking-free-after-malloc-in-c) of a good question from StackOverflow, which reads:
 
+---
 > ##### Invalid pointer error on invoking free() after malloc in C
 >
 > I am doing very basic dynamic allocation practice in C and I came across this issue: when I am trying to call `free()` with the pointer returned by `malloc()`, I am getting Invalid pointer error during run time.
@@ -108,7 +109,7 @@ Let's take a look at [an example](https://stackoverflow.com/questions/54695859/i
 > ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 > Aborted (core dumped)
 > ```
-
+---
 This constitutes a smart question. The user clearly identifies the "object" and "deviation," where the object is invoking `free()` after `malloc` and the deviation is the invalid pointer error. The user also succinctly describes the problem in the message body, outlining the source of the error and showing that they have inspected and experimented with the code, as well as searched online for suggestions. The error message provides additional context for the problem. As a result, the user receives a helpful answer with a suggested fix. The top-voted answer is as follows:
 
 - You have a variable `p` that points to the memory returned by `malloc`. Then you change the variable p to point to the memory occupied by the string literal "mark". When you try to delete it, you are trying to `delete` the string literal.
@@ -124,6 +125,7 @@ This constitutes a smart question. The user clearly identifies the "object" and 
 
 Now, let's take a look at [a not so smart question](https://stackoverflow.com/questions/48500558/python-making-a-project), which reads as follows:
 
+---
 > ##### Python: making a project
 >
 > hello i am new in python and i started learning from a book called "automate the boring stuff" and there was a project in it called Character Picture Grid and i did it but i think my code is little bit stupid and anyone tell me the right way to do this project ? :D thank you ^^
@@ -178,6 +180,7 @@ Now, let's take a look at [a not so smart question](https://stackoverflow.com/qu
 > x_y_5(grid)
 > x_y_6(grid)
 > ```
+---
 
 The question has several issues. The subject header is vague and doesn’t indicate the specific problem or its causes. This lack of detail continues into the message body, which lacks error output, making it hard to pinpoint the issue. Additionally, the user doesn’t explain the ultimate goal or provide context about the project mentioned. This confusion is evident in the replies, including the following:
 
