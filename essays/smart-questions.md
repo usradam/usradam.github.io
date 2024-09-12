@@ -112,13 +112,13 @@ Let's take a look at [an example](https://stackoverflow.com/questions/54695859/i
 ---
 This constitutes a smart question. The user clearly identifies the "object" and "deviation," where the object is invoking `free()` after `malloc` and the deviation is the invalid pointer error. The user also succinctly describes the problem in the message body, outlining the source of the error and showing that they have inspected and experimented with the code, as well as searched online for suggestions. The error message provides additional context for the problem. As a result, the user receives a helpful answer with a suggested fix. The top-voted answer is as follows:
 
-- You have a variable `p` that points to the memory returned by `malloc`. Then you change the variable p to point to the memory occupied by the string literal "mark". When you try to delete it, you are trying to `delete` the string literal.
+- "You have a variable `p` that points to the memory returned by `malloc`. Then you change the variable p to point to the memory occupied by the string literal "mark". When you try to delete it, you are trying to `delete` the string literal.
 
   In short, the line `p = "mark"` is not doing what you think it's doing. It isn't copying that value into the memory returned from malloc.
 
   Try changing that line to `strcpy(p, "mark")` and I suspect things will start working better.
 
-  (That being said, I shouldn't even mention `strcpy` because it's so unsafe and there are alternatives that will prevent buffer overrun problems. But that's a separate question, and there are a lot of discussions about it here on SO.)
+  (That being said, I shouldn't even mention `strcpy` because it's so unsafe and there are alternatives that will prevent buffer overrun problems. But that's a separate question, and there are a lot of discussions about it here on SO.)"
 
 
 ## A Question to Improve
@@ -185,7 +185,7 @@ Now, let's take a look at [a not so smart question](https://stackoverflow.com/qu
 The question has several issues. The subject header is vague and doesn’t indicate the specific problem or its causes. This lack of detail continues into the message body, which lacks error output, making it hard to pinpoint the issue. Additionally, the user doesn’t explain the ultimate goal or provide context about the project mentioned. This confusion is evident in the replies, including the following:
 
 - "Could you please tell us what you want to do?"
-- "If it's working, consider asking on codereview.stackexchange.com. Otherwise, question seeking for debugging help must include the desired behavior, a specific problem or error and the shortest code necessary to reproduce it in the question itself."
+- "If it's working, consider asking on [codereview.stackexchange.com](https://codereview.stackexchange.com/). Otherwise, question seeking for debugging help must include the desired behavior, a specific problem or error and the shortest code necessary to reproduce it in the question itself."
 
 ## Your Turn
 
