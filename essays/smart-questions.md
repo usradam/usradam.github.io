@@ -19,13 +19,19 @@ Photo by <a href="https://unsplash.com/@mattseymour?utm_content=creditCopyText&u
 
 Asking a well-constructed question increases your chances of receiving well-constructed answers. Smart questions require careful consideration to avoid being seen as a waste of time. An observant, thoughtful, and eager-to-learn individual is less likely to be ignored in forums where respondents can choose which questions to answer. Following the approach outlined by Eric S. Raymond and Rick Moen in their ["How To Ask Questions The Smart Way"](http://www.catb.org/esr/faqs/smart-questions.html) guide, it is important to take these initial steps before asking your technical question:
 
-   1. Search archives of the forum you plan to post to or its mailing list.
-   2. Search the web ("Google is your friend").
-   3. Read the manual.
-   4. Read an FAQ.
-   5. Conduct inspection and/or experimentation.
-   6. Ask a skilled friend.
-   7. If you program, try reading the source code.
+1. Search archives of the forum you plan to post to or its mailing list.
+   
+2. Search the web ("Google is your friend").
+   
+3. Read the manual.
+   
+4. Read an FAQ.
+   
+5. Conduct inspection and/or experimentation.
+    
+6. Ask a skilled friend.
+    
+7. If you program, try reading the source code.
 
 ## Constructing the Question
 
