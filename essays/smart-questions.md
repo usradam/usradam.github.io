@@ -38,7 +38,6 @@ Let's take a look at [an example](https://stackoverflow.com/questions/54695859/i
 
 > ##### Invalid pointer error on invoking free() after malloc in C
 >
-> 
 > I am doing very basic dynamic allocation practice in C and I came across this issue: when I am trying to call `free()` with the pointer returned by `malloc()`, I am getting Invalid pointer error during run time.
 >
 > When I remove `free()` from code, it works fine. The pointer that I am using is not modified anyhow after returned by `malloc` (except the casting). So that rules out some suggestion I found online. Below is my code:
@@ -107,8 +106,73 @@ Let's take a look at [an example](https://stackoverflow.com/questions/54695859/i
 > Aborted (core dumped)
 > ```
 
+This consitutes a smart question since the person clearly states an "object" and "deviation" where the object is invoking `free()` after `malloc` and the deviation is the invalid pointer error. The user also succinctly states the problem in the message body by describing what seems to be the source of error and shows that he went though some inspection/experimentation by playing around with the code and searching online for some suggestions. The error message also helps to see what the debug console pinpoints as the source of the error. As a result, the user gets a helpful explanatory message of the reason for the error with a suggested fix. The top voted one is as follows:
+
+> You have a variable `p` that points to the memory returned by `malloc`. Then you change the variable p to point to the memory occupied by the string literal "mark". When you try to delete it, you are trying to `delete` the string literal.
+>
+> In short, the line `p = "mark"` is not doing what you think it's doing. It isn't copying that value into the memory returned from malloc.
+>
+> Try changing that line to `strcpy(p, "mark")` and I suspect things will start working better.
+> 
+> (That being said, I shouldn't even mention `strcpy` because it's so unsafe and there are alternatives that will prevent buffer overrun problems. But that's a separate question, and there are a lot of discussions about it here on SO.)
+
 ## A Question to Improve
 
+Now, let's tale a look at [a not so smart question](https://stackoverflow.com/questions/48500558/python-making-a-project), which reads as follows:
 
+> ##### Python: making a project
+>
+> hello i am new in python and i started learning from a book called "automate the boring stuff" and there was a project in it called Character Picture Grid and i did it but i think my code is little bit stupid and anyone tell me the right way to do this project ? :D thank you ^^
+>
+> code:
+>
+> ```python
+> grid = [['.', '.', '.', '.', '.', '.'],
+>     ['.', 'O', 'O', '.', '.', '.'],
+>     ['O', 'O', 'O', 'O', '.', '.'],
+>     ['O', 'O', 'O', 'O', 'O', '.'],
+>     ['.', 'O', 'O', 'O', 'O', 'O'],
+>     ['O', 'O', 'O', 'O', 'O', '.'],
+>     ['O', 'O', 'O', 'O', '.', '.'],
+>     ['.', 'O', 'O', '.', '.', '.'],
+>     ['.', '.', '.', '.', '.', '.']]
+>
+> def x_y_1(grid):
+> for y in range(9):
+>     for x in [0]:
+>         print(grid[y][x],end='')
+> print(end='\n')
+> def x_y_2(grid):
+> for y in range(9):
+>     for x in [1]:
+>         print(grid[y][x],end='')
+> print(end='\n')
+> def x_y_3(grid):
+> for y in range(9):
+>     for x in [2]:
+>         print(grid[y][x],end='')
+> print(end='\n')
+> def x_y_4(grid):
+> for y in range(9):
+>     for x in [3]:
+>         print(grid[y][x],end='')
+> print(end='\n')
+> def x_y_5(grid):
+> for y in range(9):
+>     for x in [4]:
+>         print(grid[y][x],end='')
+> print(end='\n')
+> def x_y_6(grid):
+> for y in range(9):
+>     for x in [5]:
+>         print(grid[y][x],end='')
+> print(end='\n')
+> x_y_1(grid)
+> x_y_2(grid)
+> x_y_3(grid)
+> x_y_4(grid)
+> x_y_5(grid)
+> x_y_6(grid)
+> ```
 
 ## Your Turn
