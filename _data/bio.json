@@ -2,7 +2,7 @@
   "basics": {
     "name": "Adam Graham",
     "label": "Computer Science Student",
-    "picture": "https://github.com/usradam.png",
+    "picture": "../img/adam-headshot.png",
     "email": "adamgra@hawaii.edu",
     "phone": "",
     "website": "https://usradam.github.io",
