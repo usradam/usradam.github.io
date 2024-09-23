@@ -13,7 +13,9 @@ labels:
 summary: "A simple database and user interface that stores general account information such as an account number, name, and address"
 ---
 
-<img class="img-fluid" src="../img/ics-212-database/program-opening.png">
+<kbd>
+  <img class="img-fluid" width=850px src="../img/ics-212-database/program-opening.png">
+</kbd>
 
 This database user interface was created as a project for the ICS 212 class at UH Manoa. This project was the culmination of a few homeworks that we began at the beginning of the semester with the ultimate goal being to create a database with a simple user interface.
 
