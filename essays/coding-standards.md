@@ -11,7 +11,7 @@ labels:
 ---
 
 <div align="center">
-    <img width="900px" class="rounded" src="../img/coding-standards/code_quality.png" alt="xkcd: Code Quality">
+    <img width="900px" class="rounded pe-4" src="../img/coding-standards/code_quality.png" alt="xkcd: Code Quality">
 </div>
 
 Writing clean code involves ensuring readability and maintainability, whether for yourself in a solo project or for a group project with other developers. One way to ensure clean code is by setting coding standards. These are essentially guidelines put in place so that you can follow certain coding conventions. These conventions can be self-imposed, or you can use code analysis tools (also known as a [lint](https://en.wikipedia.org/wiki/Lint_(software))) to flag stylistic errors and evaluate patterns in code.
