@@ -13,8 +13,15 @@ labels:
 
 <img width="300px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
 
-Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+Web design can be a tedious process. This is exemplified in the monotonous nature of creating attractive websites with raw CSS and HTML, which involve a lot of style blocks. To cut down on this process and to streamline the development of websites, you can use UI/CSS frameworks. The frameworks function by providing a set of CSS classes and/or Javascript functions that streamline the layout development; provides an attractive look and feel; and helps with consistency across browsers. There are many frameworks out there: I am currently utilizing Bootstrap for my ICS 314 (Software Engineering) class.
 
-I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+## Bootstrap
 
+<div align="center">
+  <img width="225px" class="rounded float-start pe-4" src="../img/ui-frameworks/Bootstrap_logo.svg">
+</div>
+
+Bootstrap is one of many UI/CSS frameworks for responsive and mobile-first front-end development.
+
+## Creating Websites
 I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
