@@ -12,7 +12,7 @@ labels:
 ---
 
 <div style="text-align: center;">
-  <img src="../img/ui-frameworks/webdesign.png" style="width: 50%; max-width: 720px; height: auto; border-radius: 10px;">
+  <img src="../img/ui-frameworks/webdesign.png" style="width: 35%; max-width: 720px; height: auto; border-radius: 10px;">
 </div>
 
 ## An Alternative to Raw CSS
