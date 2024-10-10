@@ -15,6 +15,7 @@ labels:
   <img src="../img/ui-frameworks/webdesign.png" style="width: 50%; max-width: 1080px; height: auto; border-radius: 10px;">
 </div>
 
+## An Alternative to Raw CSS
 
 Web design can be a tedious process. This is exemplified in the monotonous nature of creating attractive websites with raw CSS and HTML, which involve a lot of style blocks. To cut down on this process and to streamline the development of websites, you can use UI/CSS frameworks. The frameworks function by providing a set of CSS classes and/or Javascript functions that streamline the layout development; provides an attractive look and feel; and helps with consistency across browsers. There are many frameworks out there: I am currently utilizing Bootstrap for my ICS 314 (Software Engineering) class.
 
@@ -33,6 +34,6 @@ Bootstrap is one of many UI/CSS frameworks for responsive web design (RWD) and m
 
 In ICS 314, we have gained experience utilizing Bootstrap through the practice of recreating website designs. We decided to break down the website components to be more simple than that of the actual website to get used to Bootstrap. Though there was the need to refer to documentation consistently, the practices were a fun endeavor that made web design less tedious. An example of a website we recreated was [Murphy's Bar & Grill](https://www.murphyshawaii.com/). My recreation can be seen below:
 
-<img src="../img/ui-frameworks/murphys.png">
+<img width="500px" class="rounded pe-4" src="../img/ui-frameworks/murphys.png">
 
 Bootstrap is a great utility to have when creating responsive and attractive websites without the need to slog through raw HTML and CSS. CSS frameworks in general are something I would recommend to website developers, whether that be [Bootstrap](https://getbootstrap.com/), [Tailwind CSS](https://tailwindcss.com/), or something more minimalist like [Pico CSS](https://picocss.com/).
