@@ -4,52 +4,37 @@ type: essay
 title: "Final Project Idea"
 # All dates must be YYYY-MM-DD format!
 date: 2024-11-04
-published: false
+published: true
 labels:
   - Software Engineering
   - Nextjs
 ---
 
+# Project: Lost and Found Website Hub
+Idea by: Adam Graham, Eric Kim, Justin Sumiye, Brendan Kuwabara, Christian Iha
+
 ## Overview
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
+*The problem:* There are many instances in which UH students forget their belongings in a classroom or around campus facilities. There are designated rooms to check for a lost item but it is not as easy as it could be. There is no sure way of knowing at first thought if your item was stolen or you misplaced it somewhere on your person.
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+*The solution:* The Lost and Found Website Hub acts as a catalog in which any reported lost and found items on campus are also recorded through the website. People can easily check this website to search for current lost items that have been reported and can filter these items to quickly look for any item of theirs.
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+## Approach
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+Students may log in using their UH username and password and can browse the catalog of lost items. They can browse the catalog through designated tags or a search bar to quickly filter through the items and search for a specific item that they may have lost. They can then make a claim to a lost item and set up a pick-up day.
 
-Here's what I think: the difficult things will always be difficult.
+Students can also view if an item has been claimed and can set notifications for when a new lost item appears on the website. There would also be a provided description and picture of a lost item in the case that more than one similar item is lost at the same time.
 
-## In the context of programming
+Admins can monitor the site and update the status of an item (whether its been claimed or not), can create new postings, delete postings, and update tags and descriptions.
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+## Use case ideas
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+- User goes to landing page, logs into the website using their UH username and password, gets to home page, sets up notifications.
+- Admin goes to landing page, logs in, makes changes to catalog of items (description, new posting, delete a posting, etc.)
+- User goes to landing page, logs in, searches and filters for a lost item, makes claim and sets pick-up day.
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+## Beyond the basics
 
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+- Support the lost and found items for multiple UH campuses, acting as a true central hub of lost and found items that can be used across all UH systems.
+- In the scenario that a user is not on island, the user can request an extension period for the lost item to be held or can request the item to be mailed to them.
+- Set up a time and date history of when exactly an item was reported lost and claimed.
