@@ -6,7 +6,7 @@
     "email": "adamgra@hawaii.edu",
     "phone": "",
     "website": "https://usradam.github.io",
-    "summary": "I am pursuing a B.S. in Computer Science: Data Science at the University of Hawaii at Mānoa's Department of Information and Computer Sciences. Additionally, I am working towards a secondary major in Spanish & Latin American Studies at the College of Arts, Languages & Letters. I expect to graduate in Spring 2026.",
+    "summary": "I am pursuing a B.S. in Computer Science at the University of Hawaii at Mānoa's Department of Information and Computer Sciences. Additionally, I am working towards a secondary major in Spanish & Latin American Studies at the College of Arts, Languages & Letters. I expect to graduate in Spring 2026.",
     "location": { "address": "", "postalCode": "96734", "city": "Kailua", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "usradam", "url": "http://github.com/usradam" },
@@ -15,21 +15,20 @@
   },
   "interests": [
     { "name": "Software Engineering" },
-    { "name": "Data Science" },
-    { "name": "Psephology" }
+    { "name": "Data Science" }
   ],
   "skills": [
     {
-      "name": "Languages",
-      "keywords": [ "C/C++", "Java", "Python", "HTML/CSS", "JavaScript" ]
+      "name": "Programming Languages",
+      "keywords": [ " JavaScript/TypeScript", "HTML/CSS", "C/C++", "Python", "Java" ]
+    },
+    {
+      "name": "Frameworks/Libraries",
+      "keywords": [ "Next.js", "Bootstrap", "React" ]
     },
     {
       "name": "Developer Tools",
-      "keywords": [ "Vi", "CLion", "Eclipse", "Visual Studio/Visual Studio Code", "Jupyter Notebook", "PyCharm" ]
-    },
-    {
-      "name": "Software",
-      "keywords": [ "Windows", "Unix", "PuTTY", "FileZilla", "Microsoft Office" ]
+      "keywords": [ "GitHub", "VS Code", "Vi", "Jupyter Notebook", "IntelliJ", "CLion", "Eclipse", "FileZilla", "PuTTY" ]
     }
   ],
   "education": [
@@ -61,15 +60,21 @@
       "endDate": "Present",
       "summary": "Prep materials and quality control during microfilming process",
       "highlights": [
-        "Create and re-check hundreds of accurate page-by-page collation sheets of newspapers for numerous newspaper titles for later data compilation, allowing ease of access to data pertaining to each newspaper issue",
-        "Compile numerous computer-generated targets each fiscal year to prepare for microfilming by our contract vendor, enhancing vendor coordination and project timeline adherence",
-        "Process and prepare dozens of boxes with newspapers and their associated collated data in a timely manner for shipment to our contract vendor",
-        "Analyze dozens of microfilm masters and use copies using a microscope and microfilm reader while cross-referencing collated data, allowing for thorough quality control checks to close existing microfilm contracts in a timely manner",
-        "Manage and train students by onboarding them to the microfilm process, provide feedback to their work, give instructions, and answer questions"
+        "Managed collation of hundreds of newspapers, ensuring accurate data collation for multiple titles, streamlining future access and retrieval",
+        "Coordinated the preparation of computer-generated targets for microfilming, ensuring timely project completion and vendor collaboration each fiscal year",
+        "Prepared and shipped newspaper boxes with associated data to contract vendor, ensuring efficient and timely processing",
+        "Performed quality control checks on microfilm shipments, cross-referencing data for accuracy to meet contract deadlines",
+        "Onboarded and trained students in the microfilm processes, providing instruction, feedback, and support"
       ]
     }
   ],
   "awards": [
+    {
+      "title": "Linda Rudoy Memorial Spanish Scholarship Endowment",
+      "date": "Awarded December 2024",
+      "awarder": "University of Hawaii at Mānoa",
+      "summary": "The purpose of this Fund is to assist undergraduate or graduate students seeking a degree in Spanish at the University of Hawai'i at Manoa College of Languages, Linguistics and Literatures of Europe and the Americas. Funds are intended for costs related to attendance and overseas study as approved by the Spanish Division."
+    },
     {
       "title": "Mānoa Academic Merit Scholarship",
       "date": "Awarded August 2021",
