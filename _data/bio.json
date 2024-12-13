@@ -34,19 +34,19 @@
   "education": [
     {
       "institution": "University of Hawaii at Mānoa, Honolulu, HI",
-      "area": "Computer Science: Data Science (expected Spring, 2026)",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2021-08-23",
-      "endDate": "Present",
+      "endDate": "Expected Spring 2026",
       "courses": [
       ]
     },
     {
       "institution": "University of Hawaii at Mānoa, Honolulu, HI",
-      "area": "Spanish & Latin American Studies (expected Spring, 2026)",
+      "area": "Spanish & Latin American Studies",
       "studyType": "B.A.",
       "startDate": "2021-08-23",
-      "endDate": "Present",
+      "endDate": "Expected Spring 2026",
       "courses": [
       ]
     }
