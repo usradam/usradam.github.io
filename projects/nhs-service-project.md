@@ -4,7 +4,7 @@ type: project
 image: img/nhs-service-project/parade-group.jpg
 title: "NHS Service Project"
 date: 2019-12-14
-published: false
+published: true
 labels:
   - Community Service
   - Service Project
