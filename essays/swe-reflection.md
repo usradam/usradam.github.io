@@ -12,7 +12,7 @@ labels:
 ---
 
 <div align="center">
-    <img width="900px" class="rounded pe-4" src="../img/swe-reflection/swe.jpg" alt="Software engineer working">
+    <img width="700px" class="rounded pe-4" src="../img/swe-reflection/swe.jpg" alt="Software engineer working">
 </div>
 
 ## Acquiring Fundamental Concepts
