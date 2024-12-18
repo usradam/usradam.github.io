@@ -11,11 +11,11 @@ labels:
   - Coding Standards
 ---
 
-## Acquiring Fundamental Concepts
-
 <div align="center">
     <img width="900px" class="rounded pe-4" src="../img/swe-reflection/swe.jpg" alt="Software engineer working">
 </div>
+
+## Acquiring Fundamental Concepts
 
 Throughout the semester in my ICS 314: Software Engineerng class, we have acquired some fundamental software engineering concepts that have applicability beyond the web development that we have focused on. Many of these concepts are important to have ingrained as you work on more software throughout your career. In practice, concepts like open source software development and coding standards have helped to make great strides in the development and maintenance of new and old software.
 
