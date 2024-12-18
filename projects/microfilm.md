@@ -4,7 +4,7 @@ type: project
 image: img/microfilm/microfilm-square.png
 title: "Microfilm"
 date: 2022-Present
-published: true
+published: false
 labels:
   - Microfilm
   - Collation
