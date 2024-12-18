@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/manoa-menu/manoa-menu-logo.jpg
 title: "Manoa Menu"
-date: 2024-11 - Present
+date: 2024
 published: true
 labels:
   - TypeScript
