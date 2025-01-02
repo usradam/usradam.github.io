@@ -4,7 +4,7 @@ type: essay
 title: "Getting the Answers You Want"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-11
-published: true
+published: false
 labels:
   - Questions and Answers
   - StackOverflow
