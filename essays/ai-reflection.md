@@ -4,7 +4,7 @@ type: essay
 title: "AI: Support, Not a Replacement"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-15
-published: true
+published: false
 labels:
   - AI
   - Software Engineering
