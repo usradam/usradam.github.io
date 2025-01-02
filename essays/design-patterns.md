@@ -4,7 +4,7 @@ type: essay
 title: "Reusable Solutions to Common Problems"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-04
-published: true
+published: false
 labels:
   - Design Patterns
   - Model-view-controller
