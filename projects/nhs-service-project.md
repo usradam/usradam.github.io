@@ -8,7 +8,7 @@ published: false
 labels:
   - Community Service
   - Service Project
-summary: "As part of a required service project for the National Honor Society (NHS) at my highschool, I organized with the Salvation Army to participate in the 2019 Manoa Christmas Parade."
+summary: "As part of a service project for the National Honor Society (NHS) at my highschool, I organized with the Salvation Army to participate in the 2019 Manoa Christmas Parade."
 ---
 
 <div class="text-center p-4">
