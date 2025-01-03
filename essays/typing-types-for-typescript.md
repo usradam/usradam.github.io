@@ -20,7 +20,7 @@ As I move forward with ICS 314, undertaking TypeScript has furthered my motivati
 
 I have become curious with TypeScript as it is functionally similar to JavaScript, which has allowed me to become acquainted with the syntax of TypeScript. We started the class with introductory material related to JavaScript, with one exercise focusing on the ES6 version. It was good practice that helped me solidify some base concepts; the concepts carried over to when we started TypeScript. As we moved onto TypeScript, there was emphasis on type annotations that come with the language, which can be helpful for specifying the parameters in a function.
 
-Working with JavaScript and TypeScript has been a good break from C and C++, which I worked with in a previous ICS 212 class since C and C++ involve manual memory management, making debugging a bit more annoying. With that and the type annotations in mind, TypeScript seems like a language that could offer more readability to a user, which seems like a good fit for use in software engineering. As I gain more experience with TypeScript, I am sure to develop a stronger opinion on it, but it has been an intriguing start so far.
+Working with JavaScript and TypeScript has been a nice break from C and C++, which I worked with in a previous ICS 212 class since C and C++ involve manual memory management, making debugging a bit more annoying. With that and the type annotations in mind, TypeScript seems like a language that could offer more readability to a user, which seems like a good fit for use in software engineering. As I gain more experience with TypeScript, I am sure to develop a stronger opinion on it, but it has been an intriguing start so far.
 
 ## Athletic Software Engineering
 
