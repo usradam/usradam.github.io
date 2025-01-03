@@ -41,7 +41,7 @@ AI has made headway in education, namely through the prevalence of ChatGPT over 
 }
 ```
 
-However, I would like to rely less on using AI to figure out the logic as understanding the underlying functionality of your code can help to become proficient in writing similar code on your own in the future.
+However, I would like to rely less on using AI to figure out the logic since understanding the underlying functionality of your code can help to become proficient in writing similar code on your own in the future.
 
 **In-class Practice WODs**
 
