@@ -7,7 +7,6 @@ date: 2024-12-04
 published: false
 labels:
   - Design Patterns
-  - Model-view-controller
 ---
 
 ## Roof Designs and Sleek Automobiles
