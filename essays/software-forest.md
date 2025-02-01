@@ -4,7 +4,7 @@ type: essay
 title: "Hiking through the Software Forest"
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-06
-published: true
+published: false
 labels:
   - Software Engineering
   - About Me

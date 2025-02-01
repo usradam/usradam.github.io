@@ -7,7 +7,7 @@
     "phone": "",
     "website": "https://usradam.github.io",
     "summary": "I am pursuing a B.S. in Computer Science at the University of Hawaii at Mānoa's Department of Information and Computer Sciences. Additionally, I am working towards a secondary major in Spanish & Latin American Studies at the College of Arts, Languages & Letters. I expect to graduate in Spring 2026.",
-    "location": { "address": "", "postalCode": "96734", "city": "Kailua", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "", "city": "Kailua", "countryCode": "", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "usradam", "url": "http://github.com/usradam" },
       { "network": "linkedin", "username": "adamgra", "url": "http://linkedin.com/in/adamgra" }
@@ -16,12 +16,13 @@
   "interests": [
     { "name": "Software Engineering" },
     { "name": "Machine Learning" },
-    { "name": "Web Development" }
+    { "name": "Web Development" },
+    { "name": "Cybersecurity" }
   ],
   "skills": [
     {
       "name": "Programming Languages",
-      "keywords": [ " JavaScript/TypeScript", "HTML/CSS", "C/C++", "Python", "Java" ]
+      "keywords": [ " JavaScript/TypeScript", "HTML/CSS", "C", "Python", "Java" ]
     },
     {
       "name": "Frameworks/Libraries",
@@ -29,7 +30,7 @@
     },
     {
       "name": "Developer Tools",
-      "keywords": [ "GitHub", "VS Code", "Vi", "Jupyter Notebook", "IntelliJ", "CLion", "Eclipse", "FileZilla", "PuTTY" ]
+      "keywords": [ "GitHub", "VS Code", "Vi", "Jupyter Notebook", "IntelliJ", "CLion", "Eclipse", "FileZilla", "PuTTY", "Docker" ]
     }
   ],
   "education": [
@@ -54,18 +55,34 @@
   ],
   "work": [
     {
+      "company": "GenPF",
+      "position": "Software Test Engineer Intern",
+      "website": "",
+      "startDate": "2025-01-06",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Perform quality assurance for GenPF, a startup focused on developing an AI-powered co-pilot for investment management",
+        "Conduct manual testing to verify software behavior and functionality",
+        "Develop and implement automated tests for API endpoints and browser functionality to ensure software quality and performance",
+        "Create detailed bug reports with actionable steps for fast and efficient software fixes",
+        "Design use cases to showcase software capabilities for client demonstrations and promotional materials",
+        "Utilize Python to clean, organize, and convert over 2,000 CSV files into PKL format for seamless data integration into software"
+      ]
+    },
+    {
       "company": "University of Hawaii at Mānoa",
       "position": "Microfilm Preservation Assistant",
       "website": "",
       "startDate": "2022-03-08",
       "endDate": "Present",
-      "summary": "Prep materials and quality control during microfilming process",
+      "summary": "",
       "highlights": [
-        "Managed collation of hundreds of newspapers, ensuring accurate data collation for multiple titles, streamlining future access and retrieval",
-        "Coordinated the preparation of computer-generated targets for microfilming, ensuring timely project completion and vendor collaboration each fiscal year",
-        "Prepared and shipped newspaper boxes with associated data to contract vendor, ensuring efficient and timely processing",
-        "Performed quality control checks on microfilm shipments, cross-referencing data for accuracy to meet contract deadlines",
-        "Onboarded and trained students in the microfilm processes, providing instruction, feedback, and support"
+        "Manage the collation of hundreds of newspapers, ensuring accurate data collation for multiple titles, streamlining future access and retrieval",
+        "Coordinate the preparation of computer-generated targets for microfilming, collaborating with our vendor to ensure on-time project delivery",
+        "Prepare and ship newspaper boxes with associated data to contract vendor, ensuring efficient and timely processing of materials",
+        "Perform quality control checks on microfilm shipments, cross-referencing data for accuracy to meet contract deadlines",
+        "Onboard and train students in the microfilm processes, providing clear instruction and support to ensure effective learning and team collaboration"
       ]
     }
   ],
