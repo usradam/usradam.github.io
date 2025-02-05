@@ -62,12 +62,12 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Perform quality assurance for GenPF, a startup focused on developing an AI-powered co-pilot for investment management",
-        "Conduct manual testing to verify software behavior and functionality",
-        "Develop and implement automated tests for API endpoints and browser functionality to ensure software quality and performance",
-        "Create detailed bug reports with actionable steps for fast and efficient software fixes",
+        "Perform quality assurance for GenPF, a startup developing an AI-powered co-pilot for investment management",
+        "Conduct manual tests to validate software functionality and ensure a high-quality user experience",
+        "Develop and implement automated tests for APIs and browser functionality to optimize software performance",
+        "Create detailed, actionable bug reports to expedite software fixes",
         "Design use cases to showcase software capabilities for client demonstrations and promotional materials",
-        "Utilize Python to clean, organize, and convert over 2,000 CSV files into PKL format for seamless data integration into software"
+        "Utilize Python to clean, organize, and convert over 2,600 CSV files into PKL format for seamless data integration"
       ]
     },
     {
@@ -78,11 +78,11 @@
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "Manage the collation of hundreds of newspapers, ensuring accurate data collation for multiple titles, streamlining future access and retrieval",
-        "Coordinate the preparation of computer-generated targets for microfilming, collaborating with our vendor to ensure on-time project delivery",
-        "Prepare and ship newspaper boxes with associated data to contract vendor, ensuring efficient and timely processing of materials",
-        "Perform quality control checks on microfilm shipments, cross-referencing data for accuracy to meet contract deadlines",
-        "Onboard and train students in the microfilm processes, providing clear instruction and support to ensure effective learning and team collaboration"
+        "Collate hundreds of newspapers, ensuring accurate data organization for multiple titles to streamline future access and retrieval",
+        "Coordinate the preparation of computer-generated targets for microfilming, collaborating with the vendor to ensure on-time project delivery",
+        "Prepare and ship newspaper boxes with data to the vendor, ensuring timely and efficient processing of materials",
+        "Perform quality control on microfilm shipments, cross-referencing data to ensure accuracy and meet contract deadlines",
+        "Onboard and train students in microfilm processes, providing instruction and support"
       ]
     }
   ],
