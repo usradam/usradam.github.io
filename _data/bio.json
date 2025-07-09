@@ -3,6 +3,7 @@
     "name": "Adam Graham",
     "label": "Computer Science Student",
     "picture": "../img/adam-headshot.JPG",
+    "email": "adamgra@hawaii.edu",
     "phone": "",
     "website": "https://usradam.github.io",
     "summary": "I am a senior at the University of Hawaii at Mānoa pursuing a B.S. in Computer Science and a B.A. in Spanish & Latin American Studies. I am currently an intern for the Griffiss Institute as a VICEROY MAVEN intern, where I work as a government contractor for SMX, helping to build open-source intelligence tools. I was recently a Software Test Engineer Intern for GenPF, a startup developing an AI-powered co-pilot for investment management.",
