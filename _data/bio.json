@@ -2,12 +2,12 @@
   "basics": {
     "name": "Adam Graham",
     "label": "Computer Science Student",
-    "picture": "../img/adam-headshot.png",
-    "email": "adamgra@hawaii.edu",
+    "picture": "../img/adam-headshot.JPG",
+    "email": "",
     "phone": "",
     "website": "https://usradam.github.io",
-    "summary": "I am pursuing a B.S. in Computer Science at the University of Hawaii at Mānoa's Department of Information and Computer Sciences. Additionally, I am working towards a secondary major in Spanish & Latin American Studies at the College of Arts, Languages & Letters. I expect to graduate in Spring 2026.",
-    "location": { "address": "", "postalCode": "", "city": "Kailua", "countryCode": "", "region": "Hawaii" },
+    "summary": "I am a senior at the University of Hawaii at Mānoa pursuing a B.S. in Computer Science and a B.A. in Spanish & Latin American Studies. I am currently an intern for the Griffiss Institute as a VICEROY MAVEN intern, where I work as a government contractor for SMX, helping to build open-source intelligence tools. I was recently a Software Test Engineer Intern for GenPF, a startup developing an AI-powered co-pilot for investment management.",
+    "location": { "address": "", "postalCode": "", "city": "", "countryCode": "", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "usradam", "url": "http://github.com/usradam" },
       { "network": "linkedin", "username": "adamgra", "url": "http://linkedin.com/in/adamgra" }
@@ -56,13 +56,13 @@
   "work": [
     {
       "company": "Griffiss Institute",
-      "position": "Incoming Intern",
+      "position": "VICEROY MAVEN Intern",
       "website": "",
       "startDate": "2025-06-16",
       "endDate": "2025-07-31",
       "summary": "",
       "highlights": [
-        "Incoming intern for the Griffiss Institute, in partnership with the Pacific Intelligence and Innovation Initiative (P3I)"
+        "Work as a government contractor for SMX, helping to build open-source intelligence tools"
       ]
     },
     {
@@ -99,6 +99,12 @@
   ],
   "awards": [
     {
+      "title": "Academic Excellence Award ",
+      "date": "Awarded May 2025",
+      "awarder": "University of Hawaii at Mānoa",
+      "summary": "I have been awarded the Academic Excellence Award from the Spanish, Portuguese & LAIS Division, Department of Languages and Literatures of Europe and the Americas. I was awarded this scholarship based on my academic achievements and the following criteria: classified student enrolled at UHM, GPA of 3.5 or higher, and majoring in the LLEA BA: Spanish & LAIS program"
+    },
+    {
       "title": "Linda Rudoy Memorial Spanish Scholarship Endowment",
       "date": "Awarded December 2024",
       "awarder": "University of Hawaii at Mānoa",
@@ -118,7 +124,7 @@
     },
     {
       "title": "University of Hawaii at Mānoa Dean's List",
-      "date": "August 2021 - May 2023",
+      "date": "",
       "awarder": "University of Hawaii at Mānoa",
       "summary": "Undergraduate students are awarded the Dean’s List distinction if they: (1) earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade (C/NC courses do not count), and (2) do not receive grades of W, I, F, or NC for that semester."
     }
