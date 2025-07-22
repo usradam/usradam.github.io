@@ -62,11 +62,11 @@
       "endDate": "2025-07-31",
       "summary": "",
       "highlights": [
-        "Intern in the VICEROY program, hosted by the Pacific Intelligence and Innovation Initiative (P3I), assigned to DoD contractor SMX",
-        "Developed a system block diagram outlining open-source intelligence (OSINT) data functions and anomaly detection processes",
+        "Intern for the VICEROY program, hosted by the Pacific Intelligence and Innovation Initiative (P3I), assigned to DoD contractor SMX",
+        "Developed a system block diagram outlining open-source intelligence (OSINT) data functions and anomaly detection processes that utilizes AWS",
         "Developed a flexible Python script to dynamically parse and extract data from JSON files within a subdirectory",
-        "Built a Python script to ingest and process maritime data from an open-source automatic identification system (AIS) vendor",
-        "Enhanced their Elevate Intelligence, Surveillance, and Reconnaissance (EISR) platform by leveraging entity resolution software to identify relationships across static (data at rest) and dynamic (API) datasets"
+        "Built Python scripts to ingest, process, analyze, and visualize maritime API data from an open-source automatic identification system (AIS) vendor",
+        "Enhanced SMX’s Elevate Intelligence, Surveillance, and Reconnaissance (EISR) platform by leveraging entity resolution software to identify relationships across data at rest and API data"
       ]
     },
     {
